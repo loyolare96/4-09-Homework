@@ -1,0 +1,40 @@
+body {
+    background: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    color: black;
+    margin: 30px;
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+.jumbotron p {
+    font-size: 18px
+}
+
+.panel {
+    background-color: rgba(245, 245, 245, 0.4);
+    padding: 0;
+}
+.panel-footer {
+    font-style: italic;
+    background-color: rgba(245, 245, 245, 0.4);
+    border: 0;
+    margin-bottom: -11px;
+}
+#articles{
+    float: left;
+}
+#notes {
+    float: right;
+    width: 30%;
+    position: -webkit -sticky;
+    position: sticky;
+    background-color: rgba(245, 245, 245, 0.4);
+}
+.rightCont{
+    float: right;
+}
+
